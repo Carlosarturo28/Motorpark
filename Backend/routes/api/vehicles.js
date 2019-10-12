@@ -14,6 +14,18 @@ router.get("/", async (req, res, next) => {
   return res.status(200).send(vehicleList);
 });
 
+/* Get an unique vehicle from the list */
+router.get('/:id', async (req, res, next) => {
+    let selectedVehicle
+    try {
+        selectedVehicle = await
+        db('vehicle').where({id:req.params.id}).select()
+    } catch (error) {
+        return next(error)
+    }
+    return res.status(200).send(selectedVehicle)
+})
+
 /* Insert a new vehicle to the database */
 router.post("/", async (req, res, next) => {
   let newVehicle;

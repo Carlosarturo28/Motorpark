@@ -1,4 +1,4 @@
-/*Declare connection information. This should be on a different file */
+/* Declare connection information. This should be on a different file */
 const options = {
     client: 'mysql2',
     connection: {
