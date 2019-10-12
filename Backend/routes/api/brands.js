@@ -14,6 +14,19 @@ router.get("/", async (req, res, next) => {
   return res.status(200).send(brandList);
 });
 
+
+/* Get an unique brand from the list */
+router.get('/:id', async (req, res, next) => {
+    let selectedBrand
+    try {
+        selectedBrand = await
+        db('brand').where({id:req.params.id}).select()
+    } catch (error) {
+        return next(error)
+    }
+    return res.status(200).send(selectedBrand)
+})
+
 /* Insert a new brand to the database */
 router.post("/", async (req, res, next) => {
   let newBrand;
