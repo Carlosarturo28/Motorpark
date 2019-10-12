@@ -23,7 +23,11 @@ router.get('/:id', async (req, res, next) => {
     } catch (error) {
         return next(error)
     }
+    if(selectedVehicle.length > 0) {
     return res.status(200).send(selectedVehicle)
+    } else {
+      return res.status(404).send(`There's not a vehicle with that ID`)
+    }
 })
 
 /* Insert a new vehicle to the database */

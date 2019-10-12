@@ -4,18 +4,21 @@
     "description": "Motorpark CRUD using Node.js",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"error: no test especified\" && exit 1",
+        "test": "mocha routes/tests/*.js --exit",
         "server": "nodemon index.js",
         "start": "node index.js"
     },
     "author": "Carlos Navarro",
     "dependencies": {
-        "body-parser": "^1.19.0",
+        "body-parser": "^1.19.0",        
         "express": "4.17.1",
         "knex": "0.19.0",
         "mysql2": "1.6.5"
     },
     "devDependencies": {
-        "nodemon": "^1.19.1"
+        "nodemon": "^1.19.1",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "mocha": "^6.2.1"
     }
 }

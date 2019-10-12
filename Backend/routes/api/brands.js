@@ -24,7 +24,11 @@ router.get('/:id', async (req, res, next) => {
     } catch (error) {
         return next(error)
     }
+    if(selectedBrand.length > 0) {
     return res.status(200).send(selectedBrand)
+    } else {
+      return res.status(404).send(`There's not a brand with that ID`)
+    }
 })
 
 /* Insert a new brand to the database */
