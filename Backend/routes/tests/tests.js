@@ -55,7 +55,8 @@ describe("Vehicles", () => {
           color: "blue",
           model: "Picanto",
           year: 2018,
-          brandId: 71
+          brandId: 71,
+          plate: "txs332"
         })
         .end((err, res) => {
           res.should.have.status(200)
