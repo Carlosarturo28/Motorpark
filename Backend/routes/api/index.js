@@ -6,5 +6,6 @@ const brands = require('./brands')
 
 router.use('/vehicles', vehicles)
 router.use('/brands', brands)
+router.use('', home)
 
 module.exports = router

@@ -30,6 +30,22 @@ router.get('/:id', async (req, res, next) => {
     }
 })
 
+/* Get an unique vehicle with brandID from the list */
+router.get('/search/:brand', async (req, res, next) => {
+    let selectedVehicle
+    try {
+        selectedVehicle = await
+        db('vehicle').where({brand:req.params.brand}).select()
+    } catch (error) {
+        return next(error)
+    }
+    if(selectedVehicle.length > 0) {
+    return res.status(200).send(selectedVehicle)
+    } else {
+      return res.status(404).send(`There's not a vehicle with that brand`)
+    }
+})
+
 /* Insert a new vehicle to the database */
 router.post("/", async (req, res, next) => {
   let newVehicle;
