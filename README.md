@@ -15,7 +15,7 @@ The repository is divided into two folders, the `Frontend` folder and the `Backe
 ## Built With
 
 * [React.js](https://reactjs.org/) - To build the frontend
-* [Node.js](https://nodejs.org/) - To buid the backend
+* [Node.js](https://nodejs.org/) - To build the backend
 
 ## Author
 
