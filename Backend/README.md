@@ -4,13 +4,13 @@ In the project directory, you can run:
 
 _I recommend to use `yarn` but you can use `npm` or whatever you want_
 
-###`yarn`
+###yarn
 
 ```
 yarn
 ```
 
-You must run this command first to install all the needed dependencies to run the project.
+This is the first command you must run to install all the needed dependencies to run the project.
 
 ### `yarn run server`
 
