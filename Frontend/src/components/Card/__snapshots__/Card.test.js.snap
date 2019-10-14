@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render card correctly with given props 1`] = `
+<Styled(Link)
+  to={
+    Object {
+      "pathname": "/edit-vehicle",
+      "state": Object {
+        "item": undefined,
+      },
+    }
+  }
+>
+  <styled.button>
+    <styled.img
+      src="https://images-na.ssl-images-amazon.com/images/I/41Y%2B5ZV5TOL._SS600_.jpg"
+    />
+    <styled.div>
+      <styled.div>
+        <styled.p>
+          Kia
+        </styled.p>
+        <styled.p>
+          Cerato
+        </styled.p>
+      </styled.div>
+      <styled.p>
+        Year: 
+        2019
+      </styled.p>
+      <styled.p>
+        Color: 
+        black
+      </styled.p>
+      <styled.p>
+        Plate: 
+        TST002
+      </styled.p>
+    </styled.div>
+  </styled.button>
+</Styled(Link)>
+`;
+
+exports[`Card should render correctly in "debug" mode 1`] = `
+<Styled(Link)
+  to={
+    Object {
+      "pathname": "/edit-vehicle",
+      "state": Object {
+        "item": undefined,
+      },
+    }
+  }
+>
+  <styled.button>
+    <styled.img
+      src="https://images-na.ssl-images-amazon.com/images/I/41Y%2B5ZV5TOL._SS600_.jpg"
+    />
+    <styled.div>
+      <styled.div>
+        <styled.p>
+          Renault
+        </styled.p>
+        <styled.p>
+          Sandero
+        </styled.p>
+      </styled.div>
+      <styled.p>
+        Year: 
+        2019
+      </styled.p>
+      <styled.p>
+        Color: 
+        red
+      </styled.p>
+      <styled.p>
+        Plate: 
+        ISX555
+      </styled.p>
+    </styled.div>
+  </styled.button>
+</Styled(Link)>
+`;

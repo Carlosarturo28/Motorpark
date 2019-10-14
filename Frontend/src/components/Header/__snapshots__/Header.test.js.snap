@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly in "debug" mode 1`] = `
+<Styled(Link)
+  to="/"
+>
+  <styled.div>
+    <styled.img
+      alt="logo"
+      src="logo.svg"
+    />
+  </styled.div>
+</Styled(Link)>
+`;

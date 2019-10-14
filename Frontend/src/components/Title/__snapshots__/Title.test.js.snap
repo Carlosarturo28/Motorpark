@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should render Title correctly with given props 1`] = `
+<styled.h1
+  color="#065"
+>
+  This is a Test
+</styled.h1>
+`;
+
+exports[`Title should render correctly in "debug" mode 1`] = `
+<styled.h1
+  color="#fff"
+  debug={true}
+>
+  Título
+</styled.h1>
+`;

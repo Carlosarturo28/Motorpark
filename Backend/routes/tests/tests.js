@@ -55,7 +55,7 @@ describe("Vehicles", () => {
           color: "blue",
           model: "Picanto",
           year: 2018,
-          brandId: 71,
+          brand: 'Kia',
           plate: "txs332"
         })
         .end((err, res) => {
