@@ -4,6 +4,15 @@ In the project directory, you can run:
 
 _I recommend to use `yarn` but you can use `npm` or whatever you want_
 
+###`yarn`
+
+```
+yarn
+```
+
+You must run this command first to install all the needed dependencies to run the project.
+
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
