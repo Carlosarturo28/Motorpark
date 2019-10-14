@@ -77,9 +77,9 @@ align-self: center;
 max-width: 520px;
 width: 100%;
 background-color: #006047;
-margin-top: 40px;
 border-radius: 8px;
 padding: 10px 20px;
+margin: 35px 0;
 `
 
 export const Picture = styled.img`
