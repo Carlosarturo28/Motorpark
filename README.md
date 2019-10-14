@@ -1,5 +1,3 @@
-# Motor Park
-
 <img src="https://github.com/Carlosarturo28/Motorpark/raw/master/logo.png" width="80%">
 
 Motor Park is a tiny CRUD app to see the list of vehicles of an automotive fleet using React & Node.js
