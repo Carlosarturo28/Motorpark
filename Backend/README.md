@@ -2,9 +2,9 @@
 
 In the project directory, you can run:
 
-_I recommend to use `yarn` but you can use `npm` or whatever you want_
+_I recommend to use `yarn` but you can use `npm` or whatever you want_.
 
-###yarn
+### `yarn`
 
 ```
 yarn
